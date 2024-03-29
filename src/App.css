@@ -3,8 +3,33 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 30vmin;
   pointer-events: none;
+  margin: 30px auto;
+}
+
+select {
+  text-align: center;
+  width: 90%;
+  padding: 10px;
+  margin: 10px auto;
+  border-radius: 10px;
+}
+
+input {
+  text-align: center;
+  width: 90%;
+  padding: 10px;
+  margin: 10px auto;
+  border-radius: 10px;
+}
+
+button {
+  text-align: center;
+  width: 90%;
+  padding: 10px;
+  margin: 10px auto;
+  border-radius: 10px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -14,7 +39,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #000000;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
